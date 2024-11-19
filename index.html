@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 231: Web Frontend Development I">
+    <meta name="author" content="Leticia FIgueiredo">
+    <title>Course Home Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome Course Home Page</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chamber.html">Chamber</a></li>
+                <li><a href="https://github.com/yourgithubusername">GitHub Profile</a></li>
+                <li><a href="https://www.linkedin.com/in/yourlinkedinprofile">LinkedIn</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="courses">
+            <h2>Certificate Courses</h2>
+            <div>
+                <button onclick="filterCourses('all')">All Courses</button>
+                <button onclick="filterCourses('WDD')">WDD Courses</button>
+                <button onclick="filterCourses('CSE')">CSE Courses</button>
+            </div>
+            <div id="courseList"></div>
+            <p>Total Credits: <span id="totalCredits"></span></p>
+        </section>
+        <section>
+            <h2>Section 2</h2>
+            <p>Content for section 2 goes here.</p>
+        </section>
+        <section>
+            <h2>Section 3</h2>
+            <p>Content for section 3 goes here.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Your Name, Your Country</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
