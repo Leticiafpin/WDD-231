@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce Directory">
+    <meta name="author" content="Leticia Figueiredo">
+    <title>Chamber of Commerce Directory</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="Chamber of Commerce Directory">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/social-image.jpg">
+    <meta property="og:url" content="https://yourwebsite.com/chamber/directory.html">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <h1>Chamber of Commerce</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="directory">
+            <h2>Member Directory</h2>
+            <div>
+                <button onclick="toggleView('grid')">Grid View</button>
+                <button onclick="toggleView('list')">List View</button>
+            </div>
+            <div id="memberList" class="grid-view"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Letícia Figueiredo, WDD 231, Portugal</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Company One",
+        "address": "123 Main St, City, Country",
+        "phone": "123-456-7890",
+        "website": "https://companyone.com",
+        "image": "companyone.jpg",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Company Two",
+        "address": "456 Elm St, City, Country",
+        "phone": "987-654-3210",
+        "website": "https://companytwo.com",
+        "image": "companytwo.jpg",
+        "membershipLevel": 2
+    }
+
+]
